@@ -30,3 +30,5 @@
 **Reiniciar:** Una vez que se complete la instalación, reinicia tu computadora.
 
 **Retirar la memoria USB:** Después de reiniciar y asegurarte de que todo funcione correctamente, puedes retirar la memoria USB.
+
+**Instalar los paquetes de herramientas:** Una vez instalada de manera correcta linux, abrimos el navegador y descargamos la ultima version de miniconda, la cual es una version mas compacta del repositorio conda para linux.
