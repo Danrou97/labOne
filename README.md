@@ -41,7 +41,7 @@
 
 una vez instalado reiniciamos la terminal.
 
-![Pagina de instalación Miniconda](images/miniconda.jpg)
+![Pagina de instalación Miniconda](Images/miniconda.jpg)
 
 
 **Inicializar miniconda:** Una vez reiniciada la terminal, aparece la carpeta miniconda3, en la cual seguimos los siguientes comandos:
@@ -49,7 +49,7 @@ una vez instalado reiniciamos la terminal.
 > ~/miniconda3/bin/conda init bash
 > ~/miniconda3/bin/conda init zsh
 Se verifica que se haya instalado correctamente si en consola aparece (base) en una de las esquinas superiores de la terminal. Tal como se muestra en la siguiente imagen.
-![Terminal ejecutando miniconda](images/base.jpg)
+![Terminal ejecutando miniconda](Images/base.jpg)
 
 
 **Instalar herramientas:** Para instalar las herramientas necesarias, configuramos digital y python y la activamos como la variable de entorno con el siguite codigo:
