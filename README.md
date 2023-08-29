@@ -34,6 +34,7 @@
 ## **Instalacion de paquetes y herramientas**
 
 **Descargar miniconda:** Una vez instalada de manera correcta linux, abrimos el navegador y descargamos la ultima version de miniconda desde la pagina oficial, (https://docs.conda.io/en/latest/miniconda.html#linux-installers), la cual es una version mas compacta del repositorio conda para linux.
+![Pagina de instalación y descarga Miniconda](Images/miniconda.jpg)
 
 **Instalar miniconda:** ya descargado el archivo de miniconda, lo buscamonos en la terminal de linux en la carpeta de descargas y lo extraemos usando el siguiente codigo:
 
@@ -41,15 +42,16 @@
 
 una vez instalado reiniciamos la terminal.
 
-![Pagina de instalación Miniconda](images/miniconda.jpg)
 
 
 **Inicializar miniconda:** Una vez reiniciada la terminal, aparece la carpeta miniconda3, en la cual seguimos los siguientes comandos:
 
 > ~/miniconda3/bin/conda init bash
 > ~/miniconda3/bin/conda init zsh
+
+
 Se verifica que se haya instalado correctamente si en consola aparece (base) en una de las esquinas superiores de la terminal. Tal como se muestra en la siguiente imagen.
-![Terminal ejecutando miniconda](images/base.jpg)
+![Terminal ejecutando miniconda](Images/base.png)
 
 
 **Instalar herramientas:** Para instalar las herramientas necesarias, configuramos digital y python y la activamos como la variable de entorno con el siguite codigo:
