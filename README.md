@@ -85,3 +85,4 @@ Por ultimo se descarga la carpeta de digital (https://github.com/hneemann/Digita
 
 
 ![Interfaz gráfica de digital](Images/InDigital.png)
+Visualización de la interfaz gráfica de digital.
