@@ -82,3 +82,6 @@ Y en caso de no estar instalada se pueden usar eeste enlace (https://adoptium.ne
 > $ pamac install jdk-openjdk # > Si es una distribución basada en arch
 
 Por ultimo se descarga la carpeta de digital (https://github.com/hneemann/Digital/releases/latest/download/Digital.zip) para despues usar el codigo java -jar Digital.jar en la terminal de Linux para descomprimirlo. Y si se desea dejar un acceso directo a digital desde del menu de aplicaciones se debe ejecutar el codigo: ./install.sh en el directorio donde se encuentra Digitak.jar.
+
+
+![Interfaz gráfica de digital](Images/InDigital.png)
