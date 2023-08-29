@@ -49,16 +49,28 @@ una vez instalado reiniciamos la terminal.
 **Instalar herramientas:** Para instalar las herramientas necesarias, configuramos digital y python y la activamos como la variable de entorno con el siguite codigo:
 
 > ~/miniconda3/bin/conda create -n digital python=3.10
+
 > ~/miniconda3/bin/conda activate digital
 
-ya dento del entorno de digital usamos los siguientes codigos para instalar las herramientas.
+ya dentro del entorno de digital usamos los siguientes codigos para instalar las herramientas.
 
 >  ~/miniconda3/bin/conda install -c conda-forge gtkwave
+
 >  ~/miniconda3/bin/conda install -c conda-forge graphviz
+
 >  ~/miniconda3/bin/conda install -c symbiflow netlistsvg
+
 >  ~/miniconda3/bin/conda install -c "litex-hub" yosys
+
 >  ~/miniconda3/bin/conda install -c "litex-hub" iverilog
 
-**Instalar digital:** 
+**Instalar digital:** Para instalar digital se requiere la máquina virtual de java, se puede comprojar si está instalada con el siguiente comando:
 
+> java --version
 
+Y en caso de no estar instalada se pueden usar eeste enlace (https://adoptium.net/) o los siguientes codigos:
+
+> $ sudo apt install openjdk-11-jdk # > Si es una distribución basada en debian
+> $ pamac install jdk-openjdk # > Si es una distribución basada en arch
+
+Por ultimo se descarga la carpeta de digital (https://github.com/hneemann/Digital/releases/latest/download/Digital.zip) para despues usar el codigo java -jar Digital.jar en la terminal de Linux para descomprimirlo. Y si se desea dejar un acceso directo a digital desde del menu de aplicaciones se debe ejecutar el codigo: ./install.sh en el directorio donde se encuentra Digitak.jar.
