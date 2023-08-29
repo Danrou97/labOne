@@ -41,13 +41,24 @@
 
 una vez instalado reiniciamos la terminal.
 
-**Inicializar miniconda:** Una vez reinicida la terminal, aparece la carpeta miniconda3, en la cual seguimos los siguientes comandos:
+**Inicializar miniconda:** Una vez reiniciada la terminal, aparece la carpeta miniconda3, en la cual seguimos los siguientes comandos:
 
 > ~/miniconda3/bin/conda init bash
-
 > ~/miniconda3/bin/conda init zsh
 
+**Instalar herramientas:** Para instalar las herramientas necesarias, configuramos digital y python y la activamos como la variable de entorno con el siguite codigo:
 
+> ~/miniconda3/bin/conda create -n digital python=3.10
+> ~/miniconda3/bin/conda activate digital
 
+ya dento del entorno de digital usamos los siguientes codigos para instalar las herramientas.
+
+>  ~/miniconda3/bin/conda install -c conda-forge gtkwave
+>  ~/miniconda3/bin/conda install -c conda-forge graphviz
+>  ~/miniconda3/bin/conda install -c symbiflow netlistsvg
+>  ~/miniconda3/bin/conda install -c "litex-hub" yosys
+>  ~/miniconda3/bin/conda install -c "litex-hub" iverilog
+
+**Instalar digital:** 
 
 
