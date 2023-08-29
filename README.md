@@ -34,6 +34,7 @@
 ## **Instalacion de paquetes y herramientas**
 
 **Descargar miniconda:** Una vez instalada de manera correcta linux, abrimos el navegador y descargamos la ultima version de miniconda desde la pagina oficial, (https://docs.conda.io/en/latest/miniconda.html#linux-installers), la cual es una version mas compacta del repositorio conda para linux.
+![Pagina de instalación y descarga Miniconda](Images/miniconda.jpg)
 
 **Instalar miniconda:** ya descargado el archivo de miniconda, lo buscamonos en la terminal de linux en la carpeta de descargas y lo extraemos usando el siguiente codigo:
 
@@ -41,7 +42,6 @@
 
 una vez instalado reiniciamos la terminal.
 
-![Pagina de instalación Miniconda](Images/miniconda.jpg)
 
 
 **Inicializar miniconda:** Una vez reiniciada la terminal, aparece la carpeta miniconda3, en la cual seguimos los siguientes comandos:
