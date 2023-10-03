@@ -21,7 +21,10 @@ Internamente, el módulo utiliza cuatro sumadores completos (full adders) para r
 
 Este módulo es útil para realizar operaciones aritméticas binarias en circuitos digitales y puede ser integrado en diseños más complejos que requieran capacidades de suma/resta.
 
+A continuación se muestra el resultado gráfico de la simulación:
+
 ![Resultado gráfico de la simulación](https://github.com/Danrou97/labOne/blob/main/Images/OndasSumador4bit.png)
 
+También, mostramos la salida por terminal como sigue:
 
 ![Salida por la terminal de la simulación](https://github.com/Danrou97/labOne/blob/main/Images/SalidaTerminal.png)
