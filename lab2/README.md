@@ -6,10 +6,10 @@ se diseño un sumador-restador de 4 bits usando full adders o sumadores completo
 
 el esquema de este circuito es el siguiente:
 
-![image]()
+![image](https://github.com/Danrou97/labOne/blob/main/Images/sumador%20restador.png)
 
 en el cual se puede observar como se usan compuertas xor para negar la entrada B cuando se quiere restar o no alterar su estado cuando se quiere sumar, ademas de que al estar la entrada activa para realizar la resta, tambien se activa el carry de entrada del sumador de los bits menos significativo para completar el complemento a dos.
-Este diseño trae un problema ya que cuando el numero B es mayor que el numero A, el resultado al ser negativo debe aplicar de nuevo el complemento a dos para saber el resultao exacto.
+Este diseño trae un problema ya que cuando el numero B es mayor que el numero A, el resultado al ser negativo debe aplicar de nuevo el complemento a dos para saber el resultado exacto.
 
 ## Módulo Sumador-Restador
 
