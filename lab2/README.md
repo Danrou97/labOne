@@ -20,3 +20,8 @@ El módulo produce una salida de 4 bits (S) que representa el resultado de la op
 Internamente, el módulo utiliza cuatro sumadores completos (full adders) para realizar las operaciones de bits, y también realiza una lógica XOR para manejar la operación de resta y determinar los valores de carry y overflow apropiados.
 
 Este módulo es útil para realizar operaciones aritméticas binarias en circuitos digitales y puede ser integrado en diseños más complejos que requieran capacidades de suma/resta.
+
+![Resultado gráfico de la simulación](Images/OndasSumador4bit.png)
+
+
+![Salida por la terminal de la simulación](Images/SalidaTerminal.png)
